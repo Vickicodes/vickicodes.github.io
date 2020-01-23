@@ -1,10 +1,15 @@
 
+.navbar {
+	background-color: rgba(216, 217, 215,50);
+}
+
 body {
-	background-color: linen;
+	background-color: rgba(242, 237, 228,100);
 	border: 6px solid rgb(198, 193, 199);
+	color: rgb(69, 67, 69);
 	font-family: 'Ibarra Real Nova', serif;
 	font-size: 1.1em;
-	margin: 5% auto;
+	margin: 75px auto;
 	padding: 20px;
 	width: 80%;
 }
@@ -12,14 +17,16 @@ body {
 	border-radius: 50%;
 }
 #main {
-	color: rgb(61, 59, 61);
-	float: right;
+	color: rgb(69, 67, 69);
 	font-size: 9em;
 	font-family: 'Monsieur La Doulaise', cursive;
 	font-weight: normal;
 	margin: 20px;
 	padding-right: 12px;
-	text-align: right;
+	text-shadow:0px 4px 3px rgba(0,0,0,0.4),
+				0px 8px 13px rgba(0,0,0,0.1),
+				0px 18px 23px rgba(0,0,0,0.1);		
+
 }
 h5 {
 	text-align: left;
@@ -29,12 +36,10 @@ h5 {
 	margin: 15px 0;
 }
 .title {
-	color: rgb(69, 67, 69);
-	font-size: 2.0rem;
+	font-size: 3.0rem;
 	margin: 15px 0;
 }
 h2 {
-	color: rgb(69, 67, 69);
 	margin: 15px 0;
 }
 p {
@@ -53,4 +58,11 @@ hr {
 	margin: 2px;
 	padding: 3px;
 	border: solid white 2px;
+}
+.container i {
+	color: rgb(69, 67, 69);
+	font-size: 2rem;
+	text-shadow:0px 4px 3px rgba(0,0,0,0.4),
+				0px 8px 13px rgba(0,0,0,0.1),
+				0px 18px 23px rgba(0,0,0,0.1);		
 }
