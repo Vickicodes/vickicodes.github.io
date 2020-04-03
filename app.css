@@ -1,11 +1,10 @@
-
 .navbar {
-	background-color: rgba(216, 217, 215,50);
+	background-color: rgba(198, 193, 199, .5);
 }
 
 body {
-	background-color: rgba(242, 237, 228,100);
-	border: 6px solid rgb(198, 193, 199);
+	background-color: rgba(250, 250, 250, 100);
+	border: 6px solid rgba(198, 193, 199, .5);
 	color: rgb(69, 67, 69);
 	font-family: 'Ibarra Real Nova', serif;
 	font-size: 1.1em;
@@ -23,10 +22,7 @@ body {
 	font-family: 'Monsieur La Doulaise', cursive;
 	font-weight: normal;
 	margin: 20px 0;
-	text-shadow:0px 4px 3px rgba(0,0,0,0.4),
-				0px 8px 13px rgba(0,0,0,0.1),
-				0px 18px 23px rgba(0,0,0,0.1);		
-
+	text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1);
 }
 h5 {
 	text-align: left;
@@ -54,7 +50,7 @@ p {
 	font-size: 2rem;
 }
 hr {
-	color:rgba(198, 193, 199,0.3);
+	color: rgba(198, 193, 199, 0.3);
 	margin-bottom: 15px;
 }
 .blog img {
@@ -65,7 +61,9 @@ hr {
 .container i {
 	color: rgb(69, 67, 69);
 	font-size: 2rem;
-	text-shadow:0px 4px 3px rgba(0,0,0,0.4),
-				0px 8px 13px rgba(0,0,0,0.1),
-				0px 18px 23px rgba(0,0,0,0.1);	
+	text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1);
+}
+.card img {
+	width: auto;
+	height: 10rem;
 }
