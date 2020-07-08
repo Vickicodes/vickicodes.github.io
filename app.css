@@ -1,0 +1,114 @@
+/* Main CSS */
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+a,
+span {
+  font-family: 'Merriweather', serif !important;
+}
+body {
+  padding-bottom: 100px;
+}
+
+.card {
+  background-color: #240b36;
+  color: white;
+  border: none;
+}
+
+.skills .card {
+  height: 100%;
+}
+
+/* Nav Bar CSS */
+
+.navbar {
+  background-color: transparent;
+  color: white;
+  padding-top: 7px;
+}
+
+.navbar a,
+i {
+  color: white;
+}
+
+.navbar button {
+  margin: 4px;
+  border: solid white 1px;
+}
+
+.navbar.scroll {
+  background-color: #240b36;
+}
+
+/* Hero CSS */
+.jumbotron {
+  background: #c31432; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #240b36, #c31432); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #240b36,
+    #c31432
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  color: white;
+  min-height: 300px;
+}
+.jumbotron i {
+  color: white;
+  font-size: 2rem;
+  padding-top: 30px;
+  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1);
+}
+
+/* Portfolio CSS */
+
+.portfolio.card img {
+  height: 10rem;
+}
+
+.card-footer {
+  color: #c31432;
+  bottom: 0;
+}
+
+.portfolio.card {
+  min-height: 520px;
+  margin-bottom: 10px;
+}
+
+/* Blog CSS */
+
+.blog {
+  border: #240b36 solid 2px;
+  margin-bottom: 20px;
+}
+
+.blog h2,
+h5 {
+  text-align: center;
+}
+
+.blog img {
+  width: 100%;
+}
+
+/* Home page CSS */
+
+.aboutMe-image img {
+  border: #240b36 solid 2px;
+}
+
+.about {
+  border: #240b36 solid 2px;
+  margin-bottom: 20px;
+}
+.about h2 {
+  text-align: center;
+}
